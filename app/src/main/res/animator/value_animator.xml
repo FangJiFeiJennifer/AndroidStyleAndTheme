@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="3000"
+    android:repeatCount="1"
+    android:repeatMode="reverse"
+    android:valueFrom="100"
+    android:valueTo="20"
+    android:valueType="intType" />
+<!--
+    duration : 动画持续时间
+    repeatCount : 动画执行次数，infinite无限循环
+    valueTo : float、int或者color类型，必须要设置的节点属性，表明动画结束的点；如果是颜色的话，由6位十六进制的数字表示
+    valueFrom : 相对应valueTo，动画的起始点，如果没有指定，系统会通过属性的get方法获取，颜色也是6位十六进制的数字表示
+    repeatMode : 重复模式：int型，当一个动画执行完的时候应该如何处理。该值必须是正数或者是-1，“reverse”会使得按照动画向相反的方向执行，可实现类似钟摆效果。“repeat”会使得动画每次都从头开始循环
+    valueType : 指定动画值得类型，如果动画值是颜色，就不需要指定，因为动画框架会自动处理颜色值。
+-->

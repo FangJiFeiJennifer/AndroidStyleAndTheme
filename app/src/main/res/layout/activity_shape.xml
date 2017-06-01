@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Content"
+    tools:context=".MainActivity">
+
+    <Button
+        style="@style/Button"
+        android:onClick="toRectangle"
+        android:text="Rectangle" />
+
+    <Button
+        style="@style/Button"
+        android:onClick="toOval"
+        android:text="Oval" />
+
+    <Button
+        style="@style/Button"
+        android:onClick="toLine"
+        android:text="Line" />
+
+    <Button
+        style="@style/Button"
+        android:onClick="toRing"
+        android:text="Ring" />
+</LinearLayout>

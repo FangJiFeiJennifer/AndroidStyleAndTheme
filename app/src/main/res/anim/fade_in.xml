@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alpha xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="1000"
+    android:fromAlpha="0.0"
+    android:toAlpha="1.0"
+    android:zAdjustment="top" />
+<!--
+    alpha透明度控制动画效果
+
+    浮点型值：
+        . fromAlpha动画起始时透明度
+        . toAlpha动画结束时透明度
+
+        注意:
+            。 0.0表示完全透明
+            。 1.0表示完全不透明
+        以上值取0.0-1.0之间的float数据类型的数字
+
+    长整型值：
+        . duration动画持续时间
+        . 时间以毫秒为单位
+
+    android:zAdjustment 表示被设置动画的内容在动画运行时在Z轴上的位置，取值为以下三个值之一：
+        。normal 默认值，保持内容在Z轴上的位置不变
+        。top 保持在Z周最上层
+        。bottom 保持在Z轴最下层
+-->

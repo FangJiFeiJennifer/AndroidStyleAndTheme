@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#2F90BD" />
+    <!-- padding设置内容区域离边界的间距 -->
+    <padding
+        android:bottom="12dp"
+        android:left="12dp"
+        android:right="12dp"
+        android:top="12dp" />
+    <!-- corners设置圆角，只适用于rectangle  -->
+    <corners android:radius="10dp" />
+    <!--
+        android:radius 圆角半径，会被下面每个特定的圆角属性重写,当圆角的值很大时会变成弧形边
+        android:topLeftRadius 左上角的半径
+        android:topRightRadius 右上角的半径
+        android:bottomLeftRadius 左下角的半径
+        android:bottomRightRadius 右下角的半径
+    -->
+</shape>
